@@ -1,0 +1,5 @@
+bkend/node_modules
+fend/node_modules
+
+bkend/.env
+fend/.env
