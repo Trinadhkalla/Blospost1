@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 // Use MONGO_URI and PORT from .env
-mongoose.connect(process.env.MONGO_URI).then(() => {
+mongoose.connect("mongodb://127.0.0.1:27017/postdb").then(() => {
     console.log("Database connected");
 });
 
